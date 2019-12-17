@@ -15,7 +15,6 @@ const app = express();
 app.use(cors());
 
 
-// API routes
 app.get('/location', getLocation);
 app.get('/weather', getWeather);
 app.get('/events', getEventBrite);
